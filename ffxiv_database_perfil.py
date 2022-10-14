@@ -8,7 +8,7 @@ def addicionar_database():
     player_input = input("Type the character First and Last name: ")
     server_input = input("Type the character server: ").lower()
 
-    x = 0
+    
     conn = sqlite3.connect('database.db')
     cursor = conn.cursor()
     cursor_select = conn.cursor()
