@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {background-image: url('https://images6.alphacoders.com/404/404018.jpg');}
+            h1 {color:black; font-size: 150px;text-align: center;}
+            p {color: aliceblue; font-size: 60px; text-shadow: 2px 2px;}
+            title {color:aliceblue}
+            .style-1 {color:greenyellow}
+            .style-2 {writing-mode: vertical-lr; color:cornflowerblue; font-size: 30px;}
+            
+        </style>
+    </head>
+    <body>
+        <title>Guaxinim :3</title>
+        <h1>Guaxinim, do you like?</h1>
+        <p>Do you know that guaxinim can eat trash? Take care they can eat you.</p>
+        <div class="style-1">So pra testar o verdinho :3</div>
+        <p2 class="style-2">Boa tarde, se vc perdeu seu tempo vendo aproveitei e comi o cu de quem ta lendo. (:</p2>
+
+        <button id="counting-button">Click Here!</button>
+       
+        <span id="Value">0</span>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+        $("#counting-button").click(function () {
+            let valueTag = $("#Value");
+            let valuenumber = parseInt(valueTag.text())
+            valuenumber++;
+            valueTag.text(valuenumber);
+        });
+        </script>
+    </body>
+</html>
